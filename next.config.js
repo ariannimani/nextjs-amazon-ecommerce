@@ -7,6 +7,7 @@ const nextConfig = {
       "fakestoreapi.com",
       "images-eu.ssl-images-amazon.com",
       "whitebox.com",
+      "www.junglescout.com",
     ],
   },
 };

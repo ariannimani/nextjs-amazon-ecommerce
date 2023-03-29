@@ -9,7 +9,7 @@ const ProductFeed = ({ products }) => {
         .map(({ id, title, price, description, category, image }) => (
           <ProductCard
             key={id}
-            {...{ title, price, description, category, image }}
+            {...{ id, title, price, description, category, image }}
           />
         ))}
       <img
@@ -23,7 +23,7 @@ const ProductFeed = ({ products }) => {
           .map(({ id, title, price, description, category, image }) => (
             <ProductCard
               key={id}
-              {...{ title, price, description, category, image }}
+              {...{ id, title, price, description, category, image }}
             />
           ))}
       </div>
@@ -32,7 +32,7 @@ const ProductFeed = ({ products }) => {
         .map(({ id, title, price, description, category, image }) => (
           <ProductCard
             key={id}
-            {...{ title, price, description, category, image }}
+            {...{ id, title, price, description, category, image }}
           />
         ))}
     </div>
