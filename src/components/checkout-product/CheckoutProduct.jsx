@@ -20,7 +20,6 @@ const CheckoutProduct = ({
     dispatch(removeFromCart(id));
   };
 
-  console.log({ id });
   const addItemToCart = () => {
     const product = {
       id,
